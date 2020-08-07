@@ -1,9 +1,6 @@
-def roll_call_dwarves(list)# code an argument here
+def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
-list = 1 
-  while list < 8
-  puts "#{list}"
-  list += 1
+dwarves.each_with_index {|dwarf, index| puts "#{index +1}. #{dwarf}"}
   end
 end
 
