@@ -7,7 +7,7 @@ new_dwarves = []
   puts new_dwarves.join(" ")
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(array) # code an argument here
   # Your code here
   array.collect do |names|
     names.capitalize << "!"
