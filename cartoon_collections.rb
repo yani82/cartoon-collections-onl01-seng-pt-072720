@@ -1,6 +1,6 @@
 def roll_call_dwarves(list)# code an argument here
   # Your code here
-  list.collect {"." }
+  list.collect {"." x |x|}
   # = 1 
   # while list < 8
   # puts "#{list + 1}."
