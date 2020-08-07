@@ -1,7 +1,7 @@
 def roll_call_dwarves(list)# code an argument here
   # Your code here
   list = 1 
-  
+  while list
 end
 
 def summon_captain_planet# code an argument here
