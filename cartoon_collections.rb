@@ -1,6 +1,6 @@
 def roll_call_dwarves(list)# code an argument here
   # Your code here
-  list.each_with_index = 1 
+  list.each_with_index do 
   while list < 8
   puts "#{list +1}"
   list += 1
