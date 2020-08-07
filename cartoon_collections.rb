@@ -4,6 +4,7 @@ def roll_call_dwarves(list)# code an argument here
   while list < 7
   puts "[1]. #{list}"
   list += 1
+  end
 end
 
 def summon_captain_planet# code an argument here
