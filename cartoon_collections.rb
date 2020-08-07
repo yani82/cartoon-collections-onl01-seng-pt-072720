@@ -1,8 +1,10 @@
 def roll_call_dwarves(dwarves) # code an argument here
   # Your code here
-dwarves.each_with_index do 
-puts = (#{index +1}., #{dwarf})
+new_dwarves = []
+  dwarves.each.with_index(1) do |name, index|
+    new_dwarves << "#{index}. #{name}"
   end
+  puts new_dwarves.join(" ")
 end
 
 def summon_captain_planet# code an argument here
