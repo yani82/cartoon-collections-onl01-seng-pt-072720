@@ -1,7 +1,7 @@
 def roll_call_dwarves(list)# code an argument here
   # Your code here
   list = 1 
-  while list < 7
+  while list < 8
   puts "[1] #{list}."
   list += 1
   end
